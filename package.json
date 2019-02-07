@@ -1,0 +1,26 @@
+{
+  "name": "howfinder_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.2.1",
+    "chalk": "^2.4.2",
+    "connect-mongo": "^2.0.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-status-monitor": "^1.2.3",
+    "mongoose": "^5.4.10",
+    "pug": "^2.0.3",
+    "request": "^2.88.0"
+  }
+}
